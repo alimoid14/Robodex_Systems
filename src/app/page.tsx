@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useState, useEffect } from "react";
 
 export default function Home() {
@@ -107,9 +108,11 @@ export default function Home() {
           Choose Robodex Systems for unmatched quality, advanced educational
           solutions, and reliable service.
         </p>
-        <h3 className="font-extrabold text-[#66FCF1]">
-          Let us be your trusted partner in transforming the future of
-          education.
+        <h3 className="font-extrabold text-red-400">
+          <Link href="/contactUs">
+            Let us be your trusted partner in transforming the future of
+            education!
+          </Link>
         </h3>
       </div>
 
