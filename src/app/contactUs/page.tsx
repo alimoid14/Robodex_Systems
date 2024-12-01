@@ -31,7 +31,7 @@ const ContactUs = () => {
           Mobile Numbers
         </h2>
         <p className="text-xl">
-          Call Robodex Systems:<a href="tel:+919876543210">📞 +919305102236</a>
+          Call Robodex Systems:<a href="tel:+919305102236">📞 +919305102236</a>
         </p>
         <p className="text-xl">
           Call Robodex Systems:<a href="tel:+918081524346">📞 +918081524346</a>
