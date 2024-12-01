@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import ParticlesBg from "@/components/ParticlesBg";
 
 export const metadata: Metadata = {
-  title: "Robodex Systems: Innovative Lab & Educational Equipment Solutions",
+  title: "Robodex Systems: AI Labs, Robotics & Educational Equipment",
   description:
     "Robodex Systems, based in Lucknow, Uttar Pradesh, India, offers top-quality lab equipment and educational tools, including AI labs, robotics, furniture, and 3D printers, supporting schools and institutions.",
 };
