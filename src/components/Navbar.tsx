@@ -65,10 +65,10 @@ const Navbar = () => {
               <Link href={"/"}>
                 <Image
                   className="rounded-full"
-                  src="https://images.wallpapersden.com/image/download/lio-messi-in-barcelona-paint-art_bmZrZ2eUmZqaraWkpJRnbmZnrWZraGc.jpg"
+                  src="/logo.png"
                   alt="Your Company"
-                  width={64}
-                  height={64}
+                  width={48}
+                  height={48}
                   style={{
                     filter: "drop-shadow(0px 0px 24px #a726a9a8)",
                   }}
