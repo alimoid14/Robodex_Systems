@@ -38,40 +38,80 @@ export default function Home() {
   return (
     <div className="mx-auto max-w-7xl px-4 mt-16 sm:px-6 lg:px-8 mb-16">
       <h1 className="text-4xl font-extrabold text-[#66FCF1] text-center mb-4 md:mb-8">
-        <Typewriter
-          text="Welcome to Robodex Systems ! ! !"
-          delay={100}
-          infinite={true}
-        />
+        Welcome to{" "}
+        <Typewriter text="Robodex Systems ! ! !" delay={100} infinite={true} />
       </h1>
-      <p className="text-xl whitespace-pre-line mx-auto max-w-5xl p-4 md:p-6 lg:p-8 border-4 border-white rounded-3xl">
-        At Robodex Systems, we are dedicated to transforming education and
-        workspaces with innovative solutions and advanced technology. Our
-        mission is to empower students, educators, and professionals with tools
-        to foster creativity and excellence. From establishing Atal Tinkering
-        Labs and Robotics & AI Labs to supplying specialized lab equipment for
-        Physics, Chemistry, and Mathematics, we strive to make STEM education
-        accessible and engaging. <br />
+      <div className="text-xl whitespace-pre-line mx-auto max-w-5xl p-4 md:p-6 lg:p-8 border-4 border-white rounded-3xl bg-black">
+        <h2 className="text-2xl font-extrabold mb-2 text-[#45A29E]">
+          About Robodex Systems
+        </h2>
+        <p>
+          At Robodex Systems, we are pioneers in providing cutting-edge
+          solutions in educational technology, laboratory equipment, and
+          furniture. With an unwavering commitment to excellence, we specialize
+          in delivering a{" "}
+          <span className="font-extrabold text-[#66FCF1]">
+            diverse range of high-quality products
+          </span>{" "}
+          tailored to enhance the learning experience across schools,
+          universities, and institutions. Our product offerings, including Atal
+          Tinkering Labs, Robotics and AI Labs, and advanced Physics and
+          Chemistry Lab Equipment, are designed to empower students and
+          educators alike.
+        </p>
         <br />
-        Our solutions are designed to inspire curiosity, enabling learners to
-        explore and innovate in an ever-evolving world. We also specialize in
-        creating ergonomic and efficient environments with our range of
-        laboratory, school, and office furniture. Our designs enhance comfort
-        and functionality, ensuring productivity for students and professionals
-        alike. Our computer lab setups and computer education programs further
-        bridge the digital divide, equipping individuals with essential digital
-        skills for a technology-driven future. <br />
-        <br /> We take pride in delivering customized solutions that meet the
-        unique needs of educational institutions and corporate spaces. Our
-        commitment to innovation extends to specialized technologies like 3D
-        printing and imaging solutions. These cutting-edge tools enable
-        industries and individuals to bring ideas to life with precision and
-        creativity. Whether it’s prototyping, enhancing learning experiences, or
-        streamlining workflows, our products and services are tailored to exceed
-        expectations. At Robodex Systems, we aim to build lasting partnerships
-        and drive progress through innovation and quality. Together, let’s shape
-        a future defined by learning, creativity, and success.
-      </p>
+        <br />
+        <h2 className="text-2xl font-extrabold mb-2 text-[#45A29E]">
+          Our Comprehensive Product range
+        </h2>
+        <p>
+          Since our inception, Robodex Systems has been focused on offering a
+          wide variety of innovative lab setups and educational tools. We
+          provide{" "}
+          <span className="font-extrabold text-[#66FCF1]">
+            well-structured solutions
+          </span>{" "}
+          such as 3D printers, computer education programs, and specialized
+          school furniture. Our goal is to create environments where learning
+          and creativity can flourish. Whether it&apos;s through interactive
+          STEM labs or ergonomic classroom furniture, we ensure that our
+          products meet international standards while encouraging the spirit of
+          innovation in the classroom.{" "}
+        </p>
+        <br />
+        <br />
+        <h2 className="text-2xl font-extrabold mb-2 text-[#45A29E]">
+          Our Commitment to Quality and Innovation
+        </h2>
+        <p>
+          Our core mission is to provide{" "}
+          <span className="font-extrabold text-[#66FCF1]">
+            affordable, durable, and state-of-the-art solutions
+          </span>{" "}
+          that foster an ideal learning atmosphere. Robodex Systems is dedicated
+          to offering highly customizable laboratory equipment, including
+          computer labs, office furniture, and more, that help create modern,
+          functional spaces for both students and educators. We also cater to a
+          wide range of industries, including imaging solutions, and laboratory
+          furniture for schools and offices. With an extensive array of
+          products, Robodex Systems remains at the forefront of the educational
+          technology revolution, creating tools that inspire and engage the next
+          generation of learners.{" "}
+        </p>
+        <br />
+        <br />
+        <h2 className="text-2xl font-extrabold mb-2 text-[#45A29E]">
+          Why Choose Robodex Systems?
+        </h2>
+        <p>
+          Choose Robodex Systems for unmatched quality, advanced educational
+          solutions, and reliable service.
+        </p>
+        <h3 className="font-extrabold text-[#66FCF1]">
+          Let us be your trusted partner in transforming the future of
+          education.
+        </h3>
+      </div>
 
       <br />
     </div>

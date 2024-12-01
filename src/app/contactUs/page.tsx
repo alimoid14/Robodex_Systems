@@ -7,7 +7,7 @@ const ContactUs = () => {
         {" "}
         Contact Information
       </h1>
-      <div className="max-w-2xl mx-auto mt-8 border-4 border-white p-4 sm:p-6 md:p-8 rounded-3xl">
+      <div className="max-w-2xl mx-auto mt-8 border-4 border-white p-4 sm:p-6 md:p-8 rounded-3xl bg-black">
         <h2 className="text-2xl font-bold mb-4 text-[#45A29E]">Address</h2>
         <p className="text-xl mb-4">
           Vidya Nagar, Neelmatha (Opposite Central Public School), Cantt.
