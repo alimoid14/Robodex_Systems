@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ContactUs = () => {
@@ -15,14 +16,26 @@ const ContactUs = () => {
         </p>
         <hr />
         <h2 className="text-2xl font-bold mb-4 mt-4 text-[#45A29E]">Emails</h2>
-        <p className="text-xl">robodexsystems@gmail.com</p>
-        <p className="text-xl mb-4">amit.bendenn@gmail.com</p>
+        <p className="text-xl">
+          <Link href="mailto:robodexsystems@gmail.com?subject=Inquiry&body=Hello, I would like to inquire about your services.">
+            Email Robodex Systems
+          </Link>
+        </p>
+        <p className="text-xl mb-4">
+          <Link href="mailto:amit.bendenn@gmail.com?subject=Business%20Collaboration&body=Hi Amit, I am reaching out for a possible collaboration.">
+            Email Amit (Business Manager)
+          </Link>
+        </p>
         <hr />
         <h2 className="text-2xl font-bold mb-4 mt-4 text-[#45A29E]">
           Mobile Numbers
         </h2>
-        <p className="text-xl">+91-9305102236</p>
-        <p className="text-xl">+91-8081524346</p>
+        <p className="text-xl">
+          Call Robodex Systems:<a href="tel:+919876543210">📞 +919305102236</a>
+        </p>
+        <p className="text-xl">
+          Call Robodex Systems:<a href="tel:+918081524346">📞 +918081524346</a>
+        </p>
       </div>
     </div>
   );
